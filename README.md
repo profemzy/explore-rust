@@ -167,19 +167,19 @@ tokio-stream = "0.1"
 When working with streaming responses:
 
 1. **Buffer Management**
-   - Handle partial messages appropriately
-   - Maintain state between chunks
-   - Flush output regularly for smooth display
+    - Handle partial messages appropriately
+    - Maintain state between chunks
+    - Flush output regularly for smooth display
 
 2. **Error Handling**
-   - Handle stream interruptions gracefully
-   - Provide feedback during streaming
-   - Clean up resources properly
+    - Handle stream interruptions gracefully
+    - Provide feedback during streaming
+    - Clean up resources properly
 
 3. **User Experience**
-   - Show progress indicators when appropriate
-   - Handle user interruptions
-   - Maintain consistent output formatting
+    - Show progress indicators when appropriate
+    - Handle user interruptions
+    - Maintain consistent output formatting
 
 ## Advanced Usage
 
@@ -215,18 +215,18 @@ let stream_result = timeout(
 ## Common Pitfalls and Solutions
 
 1. **Stream Processing**
-   - Always handle partial messages correctly
-   - Don't assume complete sentences in chunks
-   - Remember to flush output regularly
+    - Always handle partial messages correctly
+    - Don't assume complete sentences in chunks
+    - Remember to flush output regularly
 
 2. **Resource Management**
-   - Clean up streams properly
-   - Handle disconnections gracefully
-   - Monitor memory usage with long streams
+    - Clean up streams properly
+    - Handle disconnections gracefully
+    - Monitor memory usage with long streams
 
 3. **Error Handling**
-   - Implement proper error recovery
-   - Log errors appropriately
-   - Provide meaningful user feedback
+    - Implement proper error recovery
+    - Log errors appropriately
+    - Provide meaningful user feedback
 
 The enhanced client provides a more robust and feature-rich experience while maintaining the simplicity and safety guarantees that Rust is known for. Whether you're building a chat interface, a code generation tool, or any other AI-powered application, these features give you the flexibility and reliability you need.
